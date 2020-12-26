@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  overflow: hidden;
+}
+
+#titulo {
+  font-family: sans-serif;
+  color: white;
+  font-size: 1.25em;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 0.25em;
+  margin-bottom: 0.55em;
+}
+
+.carrusel {
+  height: 72vh;
+  width: 100%;
+  background-color: grey;
+}
+
+.imagen {
+  height: 72vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.im1 {
+  background-image: url("https://source.unsplash.com/featured/?nature,beaches");
+}
+
+.im2 {
+  background-image: url("https://source.unsplash.com/featured/?nature,forest");
+}
+
+.im3 {
+  background-image: url("https://source.unsplash.com/featured/?nature,mountain");
+}
+
+.im4 {
+  background-image: url("https://source.unsplash.com/featured/?nature,snow");
+}
+
+.im5 {
+  background-image: url("https://source.unsplash.com/featured/?nature,desert");
+}
+
+.im6 {
+  background-image: url("https://source.unsplash.com/featured/?tech,code");
+}
+
+.im7 {
+  background-image: url("https://source.unsplash.com/featured/?tech,gaming");
+}
+
+.slick-prev {
+  left: 35px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 35px;
+}
